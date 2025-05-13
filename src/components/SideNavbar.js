@@ -4,7 +4,7 @@ import { FaHome, FaUser } from "react-icons/fa";
 
 function SideNavbar(){
     return(
-        <div className="bg-secondary position-fixed vh-100 d-flex flex-column p-3" style={{width: '220px'}}>
+        <div className="bg-secondary position-fixed vh-100 d-flex flex-column p-3" style={{width: '100px'}}>
             <ul className="nav flex-colum mt-3">
                 <li className="nav-item">
                 <Link to ="/" className="nav-link text-white">
